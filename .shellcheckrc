@@ -1,0 +1,2 @@
+# Fix functions are called indirectly via the STRATS array and trap
+disable=SC2329
