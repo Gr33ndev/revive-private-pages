@@ -1,2 +1,3 @@
-# Fix functions are called indirectly via the STRATS array and trap
-disable=SC2329
+# Fix functions are called indirectly (via the STRATS array and trap).
+# SC2317 is the code older ShellCheck versions use for this, SC2329 newer ones.
+disable=SC2317,SC2329
